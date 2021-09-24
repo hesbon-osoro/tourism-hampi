@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from './Footer';
 import Navbar from './Navbar';
-import icon from '../images/defaultBcg.jpeg';
+import icon from '../images/VirupakshaTemple20.jpg';
 import Helmet from 'react-helmet';
 import './layout.css';
 
@@ -10,6 +10,7 @@ const Layout = ({children}) => {
         <>
             <Helmet>
                 <link rel='icon' href={icon} />
+                <title>Hampi Tourist Site</title>
             </Helmet>
             <Navbar />
             {children}

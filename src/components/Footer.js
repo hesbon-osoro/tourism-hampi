@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../css/footer.module.css';
+import * as styles from '../css/footer.module.css';
 import links from '../constants/links';
 import socialIcons from '../constants/social-icons';
 import { Link } from 'gatsby'
@@ -29,7 +29,7 @@ const Footer = () => {
                 }
             </div>
             <div className={styles.copyright}>
-                copyright &copy; Amazing nHampi {new Date().getFullYear()} all rights reserved.
+                copyright &copy; Amazing Hampi {new Date().getFullYear()} all rights reserved.
             </div>
         </footer>
     );

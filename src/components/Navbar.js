@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'gatsby';
-import styles from '../css/navbar.module.css';
+import * as styles from '../css/navbar.module.css';
 import { FaAlignRight } from 'react-icons/fa';
 import links from '../constants/links';
 import socialIcons from '../constants/social-icons';

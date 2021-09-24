@@ -1,6 +1,6 @@
 import React from 'react';
 import Title from '../Title';
-import styles from '../../css/tips.module.css';
+import * as styles from '../../css/tips.module.css';
 import tips from '../../constants/tips';
 
 const Tips = () => {
@@ -14,7 +14,7 @@ const Tips = () => {
                             <article key={index} className={styles.tip}>
                                 <span>{item.icon}</span>
                                 <h4>{item.title}</h4>
-                                <p>item.text</p>
+                                <p>{item.text}</p>
                             </article>
                         )
                     })
