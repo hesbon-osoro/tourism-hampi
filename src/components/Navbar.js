@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import * as styles from '../css/navbar.module.css';
 import { FaAlignRight } from 'react-icons/fa';
 import links from '../constants/links';
-import socialIcons from '../constants/social-icons';
+// import socialIcons from '../constants/social-icons';
 import logo from '../images/logo.png';
 
 const Navbar =()=> {
@@ -31,7 +31,7 @@ const Navbar =()=> {
                         })
                     }
                 </ul>
-                <div className={styles.navSocilLinks}>
+                {/* <div className={styles.navSocilLinks}>
                     {
                         socialIcons.map((item, index)=>{
                             return(
@@ -39,7 +39,7 @@ const Navbar =()=> {
                             )
                         })
                     }
-                </div>
+                </div> */}
             </div>
         </nav>
     )

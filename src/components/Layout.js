@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from './Footer';
 import Navbar from './Navbar';
-import icon from '../images/VirupakshaTemple20.jpg';
+import icon from '../images/favicon.ico';
 import Helmet from 'react-helmet';
 import './layout.css';
 

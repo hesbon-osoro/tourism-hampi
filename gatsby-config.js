@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `Gatsby Tourism Site with Contentful`,
     description: `Fully functional tourism site in React with Contentful CMS | Gatsby `,
-    author: `@wazimu`
+    author: `@wazimu`,
+    siteUrl: `https://hampi-tourism-site-hb.netlify.app/`
   },
   plugins: [
     `gatsby-plugin-styled-components`,
@@ -28,7 +29,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/VirupakshaTemple20.jpg`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.ico`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

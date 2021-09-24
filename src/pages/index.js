@@ -1,18 +1,31 @@
 import React from 'react';
 import Layout from '../components/Layout';
-import SimpleHero from '../components/SimpleHero';
+import StyledHero from '../components/StyledHero';
 import Banner from '../components/Banner';
 import About from '../components/About/About';
 import Tips from '../components/Home/Tips';
 import { Link } from 'gatsby';
+import { graphql } from 'gatsby';
 
-const home = ()=>(
+export const query = graphql`
+    query {
+        defaultBcg: file(relativePath: {eq: "defaultBcg.jpeg"}){
+            childImageSharp{
+                fluid(quality: 90, maxWidth: 4160){
+                    ...GatsbyImageSharpFluid_withWebp
+                }
+            }
+        }
+    }
+`;
+
+const home = ({data})=>(
     <Layout>
-        <SimpleHero>
+        <StyledHero home='true' img={data.defaultBcg.childImageSharp.fluid}>
             <Banner title='Amazing Hampi' info='Come and Explore Hampi, the city of ruins, which is a UNESCO World Heritage Site.'>
                 <Link to='/places' className='btn-white'>explore places</Link>
             </Banner>
-        </SimpleHero>
+        </StyledHero>
         <About />
         <Tips />
     </Layout>
