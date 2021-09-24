@@ -17,4 +17,6 @@ const icons = [
         title: 'amazing comfort',
         text: "Stay in Oyo rooms, instead of Airbnb or some travel site.",
     },
-]
+];
+
+export default icons;

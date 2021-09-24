@@ -1,7 +1,7 @@
 import React from 'react';
 import Title from '../Title';
-import styles from '../css/tips.module.css';
-import tips from '../constants/tip';
+import styles from '../../css/tips.module.css';
+import tips from '../../constants/tips';
 
 const Tips = () => {
     return (

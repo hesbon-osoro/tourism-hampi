@@ -3,7 +3,7 @@ import Layout from '../components/Layout';
 import SimpleHero from '../components/SimpleHero';
 import Banner from '../components/Banner';
 import About from '../components/About/About';
-import Tips from '../components/Tips';
+import Tips from '../components/Home/Tips';
 import { Link } from 'gatsby';
 
 const home = ()=>(
