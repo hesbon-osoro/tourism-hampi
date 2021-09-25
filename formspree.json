@@ -1,0 +1,24 @@
+{
+    "forms": {
+        "contactForm": {
+            "name": "Contact Form",
+            "actions": [{
+                "type": "email",
+                "to": "hesbonosoro1@gmail.com"
+            }],
+            "fields": {
+                "name": {
+                    "required": "true",
+                    "type": "text"
+                },
+                "email": {
+                    "required": "true",
+                    "type": "email"
+                },
+                "message": {
+                    "required": "true"
+                }
+            }
+        }
+    }
+}
