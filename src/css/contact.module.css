@@ -12,7 +12,7 @@
     }
 }
 .contact label{
-    text-decoration: capitalize;
+    text-transform: capitalize;
     display: block;
     margin-bottom: 0.5rem;
 }
