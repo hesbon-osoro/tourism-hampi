@@ -13,7 +13,7 @@
 .img{
     transition: var(--mainTransition);
 }
-.img-container:hover img{
+.img-container:hover .img{
     opacity: 0.3;
 }
 .link{
