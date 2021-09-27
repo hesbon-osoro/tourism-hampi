@@ -12,6 +12,10 @@ const links = [
         text: 'blog',
     },
     {
+        path: '/photos',
+        text: 'photos'
+    },
+    {
         path: '/contact',
         text: 'contact',
     }
