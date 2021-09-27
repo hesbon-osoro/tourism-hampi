@@ -46,6 +46,21 @@ module.exports = {
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
       },
     },
+    {
+      resolve: `gatsby-plugin-robots-txt`,
+      options: {
+          host: `https://hampi-tourism-site-hb.netlify.app/`,
+          sitemap: `https://hampi-tourism-site-hb.netlify.app/sitemap.xml`,
+          policy: [{ userAgent: "*", allow: "/"}]
+      }
+    },
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `G-4TVNDK1XD9`,
+      }
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

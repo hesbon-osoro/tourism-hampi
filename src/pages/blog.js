@@ -2,8 +2,8 @@ import React from 'react';
 import Layout from '../components/Layout';
 import StyledHero from '../components/StyledHero';
 import { graphql } from 'gatsby';
-// import SEO from '../components/SEO';
 import BlogList from '../components/Blogs/BlogList';
+import SEO from '../components/SEO'
 
 export const query = graphql`
     query{
@@ -20,10 +20,9 @@ export const query = graphql`
 export default function blog({data}) {
     return (
         <Layout>
-            {/* <SEO title='Blog' description='Real experiences blogs oon Hampi, the city of ruins, is a UNESCO World Heritage Site.'> */}
-                <StyledHero img={data.blogBcg.childImageSharp.fluid} />
-                <BlogList />
-            {/* </SEO> */}
+            <SEO title='Blog' description='Real experiences blogs oon Hampi, the city of ruins, is a UNESCO World Heritage Site.' />
+            <StyledHero img={data.blogBcg.childImageSharp.fluid} />
+            <BlogList />            
         </Layout>
     )
 }

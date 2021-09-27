@@ -3,6 +3,7 @@ import Layout from '../components/Layout';
 import StyledHero from '../components/StyledHero';
 import { graphql } from 'gatsby';
 import Places from '../components/Places/Places';
+import SEO from '../components/SEO'
 
 export const query = graphql`
     query {
@@ -19,6 +20,7 @@ export const query = graphql`
 export default function places({data}) {
     return (
         <Layout>
+            <SEO title="Places" description="Places to visit in Hampi, the city of ruins, is a UNESCO World Heritage Site."/>
             <StyledHero img={data.defaultBcg.childImageSharp.fluid} />
             <Places />
         </Layout>
