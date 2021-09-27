@@ -32,7 +32,7 @@ const Template = ({ data }) => {
                         </p>
                         <p>
                             <FaClock className={styles.icon} />
-                            Time Required: {timeRequired} hours
+                            Time Required: {timeRequired} hour{timeRequired === 1 ? '' : 's'}
                         </p>
                         {
                             timings ?

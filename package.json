@@ -25,6 +25,7 @@
     "gatsby-plugin-transition-link": "^1.20.5",
     "gatsby-source-contentful": "^5.14.0",
     "gatsby-source-filesystem": "^3.14.0",
+    "gatsby-transformer-remark": "^4.11.0",
     "gatsby-transformer-sharp": "^3.14.0",
     "gsap": "^3.7.1",
     "nodemailer": "^6.6.5",

@@ -3,6 +3,7 @@ import Layout from '../components/Layout';
 import StyledHero from '../components/StyledHero';
 import { graphql } from 'gatsby';
 // import SEO from '../components/SEO';
+import BlogList from '../components/Blogs/BlogList';
 
 export const query = graphql`
     query{
@@ -21,6 +22,7 @@ export default function blog({data}) {
         <Layout>
             {/* <SEO title='Blog' description='Real experiences blogs oon Hampi, the city of ruins, is a UNESCO World Heritage Site.'> */}
                 <StyledHero img={data.blogBcg.childImageSharp.fluid} />
+                <BlogList />
             {/* </SEO> */}
         </Layout>
     )

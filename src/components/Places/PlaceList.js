@@ -16,7 +16,7 @@ class PlaceList extends Component {
     }
     render() {
         return (
-            <section className={styles.tours}>
+            <section className={styles.places}>
                 <Title title='hampi' subtitle='places'/>
                 <div className={styles.center}>
                     {
