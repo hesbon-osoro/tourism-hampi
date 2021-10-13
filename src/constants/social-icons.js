@@ -24,7 +24,7 @@ const icons = [
     },
     {
         icon: <FaLinkedin />,
-        url: 'https://www.linkedin.com/in/hesbon-osoro-23776916b/'
+        url: 'https://www.linkedin.com/in/wazimu'
     },
     {
         icon: <FaFreeCodeCamp />,
