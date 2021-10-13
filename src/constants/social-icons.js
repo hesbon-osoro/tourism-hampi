@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaCodepen, FaHackerrank, FaTwitterSquare, FaInstagram, FaLinkedin, FaFreeCodeCamp, FaYoutube } from 'react-icons/fa';
+import { FaCodepen, FaHackerrank, FaTwitterSquare, FaInstagram, FaWhatsapp, FaLinkedin, FaFreeCodeCamp, FaYoutube } from 'react-icons/fa';
 
 const icons = [
     {
@@ -17,6 +17,10 @@ const icons = [
     {
         icon: <FaInstagram />,
         url: 'https://www.instagram.com/wazimu.hb/'
+    },
+    {
+        icon: <FaWhatsapp />,
+        url: 'https://wa.me/+254792496898'
     },
     {
         icon: <FaLinkedin />,
