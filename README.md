@@ -1,3 +1,4 @@
+[![hampi-github.png](https://i.postimg.cc/d04DybCw/hampi-github.png)](https://postimg.cc/bGSzXFLB)
 <!--START_SECTION:waka-->
 ```text
 JavaScript   7 hrs 4 mins    ███████████████░░░░░░░░░░   59.60 % 
@@ -14,7 +15,7 @@ CSV          6 mins          ▒░░░░░░░░░░░░░░░░
 
 ### Github extra pins
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=wazimuhb&repo=github-profile&theme=dark&title_color=009933)](https://github.com/wazimuhb/tourism-hampi&show_owner=true&count_private=true)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=wazimuhb&repo=tourism-hampi&theme=dark&title_color=009933)](https://github.com/wazimuhb/tourism-hampi&show_owner=true&count_private=true)
 
 ### Compact language card layout
 
