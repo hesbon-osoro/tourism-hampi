@@ -8,6 +8,8 @@ YAML         37 mins         █▒░░░░░░░░░░░░░░░
 CSV          6 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.93 % 
 ```
 <!--END_SECTION:waka-->
+### 🏆 My Trophies
+  [![trophy](https://github-profile-trophy.vercel.app/?username=wazimuhb&theme=juicyfresh&no-bg=true)](https://github.com/wazimuhb/tourism-hampi)
 
 ### Github Stats
 
