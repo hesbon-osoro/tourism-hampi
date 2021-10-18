@@ -1,4 +1,8 @@
 [![hampi-github.png](https://i.postimg.cc/d04DybCw/hampi-github.png)](https://postimg.cc/bGSzXFLB)
+
+
+  [![Netlify Status](https://api.netlify.com/api/v1/badges/c7864322-293c-413f-93a7-1af5bf544dd2/deploy-status)](https://app.netlify.com/sites/hampi-tourism-site-hb/deploys)
+ 
 <!--START_SECTION:waka-->
 ```text
 JavaScript   7 hrs 4 mins    ███████████████░░░░░░░░░░   59.60 % 
