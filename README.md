@@ -12,6 +12,32 @@ YAML         37 mins         █░░░░░░░░░░░░░░░░
 CSV          6 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.60 % 
 ```
 <!--END_SECTION:waka-->
+<fieldset style="color: green">
+  <legend>
+    <strong> Top technologies used in this project</strong>
+  </legend>
+ <details>
+  <summary>Javascript</summary>
+  <ul>
+    <li>React -Frontend</li>
+    <li>Gatsby -Static Site Generator</li>
+    <li>Node -Backend</li>
+  </ul>
+  </details>
+ <details>
+  <summary>Contentful CMS,</summary>
+  (store images and posts of the site)
+  </details>
+ <details>
+  <summary>Formspree</summary>
+  Sends emails to my gmail account
+  </details>
+ <details>
+  <summary>GraphQL</summary>
+  Queries Contentful CMS data
+  </details>
+</fieldset>
+
 ### 🏆 My Trophies
   [![trophy](https://github-profile-trophy.vercel.app/?username=wazimuhb&theme=juicyfresh&no-bg=true)](https://github.com/wazimuhb/tourism-hampi)
 
