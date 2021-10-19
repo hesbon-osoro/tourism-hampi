@@ -60,3 +60,13 @@ CSV          6 mins          ░░░░░░░░░░░░░░░░░
 ### Profile Visit
 
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=wazimuhb.tourism-hampi&left_color=green&right_color=red&theme=dark&title_color=009933)
+
+<p>
+I know why you are here, star the project.<br />
+Visit the site and leave me a comment.<br />
+Thank you for your time to review my project,<br />
+Regards.<br />
+</p>
+
+[![Image of https://github.com/wazimuhb/wazimu-views-counter](https://github.com/wazimuhb/wazimu-views-counter/blob/master/svg/profile/badge.svg)](https://github.com/wazimuhb/wazimu-views-counter)
+
