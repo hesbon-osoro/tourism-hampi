@@ -57,6 +57,8 @@ CSV          6 mins          ░░░░░░░░░░░░░░░░░
 
 [![wakatime](https://wakatime.com/badge/user/26cc90f6-22da-4220-ac7d-f452b6324239/project/144df26d-a787-4ae8-ac6a-e83461b1941e.svg)](https://wakatime.com/badge/user/26cc90f6-22da-4220-ac7d-f452b6324239/project/144df26d-a787-4ae8-ac6a-e83461b1941e)
 
+[![wakatime](https://wakatime.com/badge/user/26cc90f6-22da-4220-ac7d-f452b6324239.svg)](https://wakatime.com/@26cc90f6-22da-4220-ac7d-f452b6324239)
+
 ### Profile Visit
 
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=wazimuhb.tourism-hampi&left_color=green&right_color=red&theme=dark&title_color=009933)
