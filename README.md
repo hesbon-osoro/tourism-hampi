@@ -55,7 +55,7 @@ CSV          6 mins          ░░░░░░░░░░░░░░░░░
 
 ### Wakatime Week Stats
 
-[![wakatime](https://wakatime.com/badge/user/26cc90f6-22da-4220-ac7d-f452b6324239/project/144df26d-a787-4ae8-ac6a-e83461b1941e.svg)](https://wakatime.com/badge/user/26cc90f6-22da-4220-ac7d-f452b6324239/project/144df26d-a787-4ae8-ac6a-e83461b1941e)
+[![Wazimu's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=wazimu&theme=dark&title_color=009933)](https://github.com/wazimuhb/wazimuhb)
 
 [![wakatime](https://wakatime.com/badge/user/26cc90f6-22da-4220-ac7d-f452b6324239.svg)](https://wakatime.com/@26cc90f6-22da-4220-ac7d-f452b6324239)
 
