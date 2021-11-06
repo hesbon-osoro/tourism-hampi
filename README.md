@@ -5,11 +5,11 @@
  
 <!--START_SECTION:waka-->
 ```text
-JavaScript   27 hrs 35 mins  █████████████▒░░░░░░░░░░░   52.84 % 
-SCSS         21 hrs 22 mins  ██████████▒░░░░░░░░░░░░░░   40.94 % 
-JSON         1 hr 6 mins     ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.11 % 
-Bash         28 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.91 % 
-Markdown     20 mins         ░░░░░░░░░░░░░░░░░░░░░░░░░   00.66 % 
+JavaScript   21 hrs 23 mins  ███████████▓░░░░░░░░░░░░░   46.48 % 
+SCSS         21 hrs 22 mins  ███████████▓░░░░░░░░░░░░░   46.42 % 
+JSON         1 hr            ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.17 % 
+Bash         28 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.04 % 
+Markdown     22 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.80 % 
 ```
 <!--END_SECTION:waka-->
 <fieldset style="color: green">
