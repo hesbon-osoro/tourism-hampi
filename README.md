@@ -17,7 +17,7 @@ Hampi Tourism site, this is a blog site for briefing tourists interested to visi
 - Formspree<br />
   &#10004; Sends emails to my gmail account<br />
 - GraphQL<br />
-  &#10004; Querries Contentful CMS data<br />
+  &#10004; Querrying Contentful CMS data<br />
 
 ## Demo
 
