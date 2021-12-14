@@ -18,3 +18,26 @@ Hampi Tourism site, this is a blog site for briefing tourists interested to visi
   &#10004; Sends emails to my gmail account<br />
 - GraphQL<br />
   &#10004; Querries Contentful CMS data<br />
+
+## Demo
+
+## Home
+[![hampi-github.png](assets/images/hampi.png)](https://hampi-tourism-site-hb.netlify.app/)
+
+## About
+[![hampi-github.png](assets/images/hampi1.png)](https://hampi-tourism-site-hb.netlify.app/)
+
+## Featured Places
+[![hampi-github.png](assets/images/hampi2.png)](https://hampi-tourism-site-hb.netlify.app/)
+
+## Places
+[![hampi-github.png](assets/images/hampi3.png)](https://hampi-tourism-site-hb.netlify.app/)
+
+## Blogs
+[![hampi-github.png](assets/images/hampi4.png)](https://hampi-tourism-site-hb.netlify.app/)
+
+## Photos
+[![hampi-github.png](assets/images/hampi5.png)](https://hampi-tourism-site-hb.netlify.app/)
+
+## Contant Us
+[![hampi-github.png](assets/images/hampi6.png)](https://hampi-tourism-site-hb.netlify.app/)
