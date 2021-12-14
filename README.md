@@ -22,7 +22,7 @@ Hampi Tourism site, this is a blog site for briefing tourists interested to visi
 ## Demo
 
 ## Home
-[![hampi-github.png](assets/images/hampi.png)](https://hampi-tourism-site-hb.netlify.app/)
+[![hampi-github.png](assets/images/hampi-github.png)](https://hampi-tourism-site-hb.netlify.app/)
 
 ## About
 [![hampi-github.png](assets/images/hampi1.png)](https://hampi-tourism-site-hb.netlify.app/)
