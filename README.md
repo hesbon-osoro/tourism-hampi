@@ -32,5 +32,5 @@ Hampi Tourism site, this is a blog site for briefing tourists interested to visi
   </details>
 </fieldset>
 
-Hampi Tourism site, this is a blog site for briefing tourists interested to visit the place in India.
+<!-- Hampi Tourism site, this is a blog site for briefing tourists interested to visit the place in India. -->
 
