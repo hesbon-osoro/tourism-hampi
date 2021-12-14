@@ -6,7 +6,7 @@
 
 Hampi Tourism site, this is a blog site for briefing tourists interested to visit the place in India.
 
-<fieldset style="color: green">
+<fieldset style="color: green;">
   <legend>
     <strong> Top technologies used in this project</strong>
   </legend>
