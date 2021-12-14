@@ -1,22 +1,36 @@
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
+[![hampi-github.png](https://i.postimg.cc/d04DybCw/hampi-github.png)](https://hampi-tourism-site-hb.netlify.app/)
 
-### Github Stats
 
-![Wazimu's GitHub stats](https://github-readme-stats.vercel.app/api?username=wazimuhb&count_private=true&show_icons=true&theme=dark&title_color=009933&include_all_commits=true)
+  [![Netlify Status](https://api.netlify.com/api/v1/badges/c7864322-293c-413f-93a7-1af5bf544dd2/deploy-status)](https://app.netlify.com/sites/hampi-tourism-site-hb/deploys)
 
-### Github extra pins
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=wazimuhb&repo=github-profile&theme=dark&title_color=009933)](https://github.com/wazimuhb/tourism-hampi&show_owner=true&count_private=true)
+Hampi Tourism site, this is a blog site for briefing tourists interested to visit the place in India.
 
-### Compact language card layout
+<fieldset style="color: green">
+  <legend>
+    <strong> Top technologies used in this project</strong>
+  </legend>
+ <details>
+  <summary>Javascript</summary>
+  <ul>
+    <li>React -Frontend</li>
+    <li>Gatsby -Static Site Generator</li>
+    <li>Node -Backend</li>
+  </ul>
+  </details>
+ <details>
+  <summary>Contentful CMS,</summary>
+  (store images and posts of the site)
+  </details>
+ <details>
+  <summary>Formspree</summary>
+  Sends emails to my gmail account
+  </details>
+ <details>
+  <summary>GraphQL</summary>
+  Queries Contentful CMS data
+  </details>
+</fieldset>
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=wazimuhb&layout=compact&theme=dark&title_color=009933)](https://github.com/wazimuhb/tourism-hampi)
+Hampi Tourism site, this is a blog site for briefing tourists interested to visit the place in India.
 
-### Wakatime Week Stats
-
-[![Wazimu's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=wazimu&theme=dark&title_color=009933)](https://github.com/wazimuhb/tourism-hampi)
-
-### Profile Visit
-
-![visitors](https://visitor-badge.glitch.me/badge?page_id=wazimuhb.tourism-hampi&left_color=green&right_color=red&theme=dark&title_color=009933)
