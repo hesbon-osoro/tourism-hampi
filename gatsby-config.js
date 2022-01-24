@@ -5,7 +5,7 @@ module.exports = {
   siteMetadata: {
     title: `Gatsby Tourism Site with Contentful`,
     description: `Fully functional tourism site in React with Contentful CMS | Gatsby `,
-    author: `@wazimu`,
+    author: `@wazimuhb`,
     siteUrl: `https://hampi-tourism-site-hb.netlify.app/`,
     image: `/VirupakshaTemple20.jpg`,
     twitterUsername: `@wazimu_hb`
