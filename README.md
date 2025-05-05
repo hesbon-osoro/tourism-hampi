@@ -41,3 +41,8 @@ Hampi Tourism site, this is a blog site for briefing tourists interested to visi
 
 ## Contact Us
 [![hampi-github.png](assets/images/hampi6.png)](https://hampi-tourism-site-hb.netlify.app/)
+
+<a href="https://atemplate.com/item/tourism-hampi" target="_blank"> 
+    <img src="https://atemplate.com/badages-awards.svg" 
+        alt="tourism-hampi | A template" width="180"/> 
+</a>
