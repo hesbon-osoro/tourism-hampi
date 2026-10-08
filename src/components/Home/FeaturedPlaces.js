@@ -1,8 +1,7 @@
 import React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
+import { useStaticQuery, graphql, Link } from 'gatsby';
 import Title from '../Title';
 import * as styles from '../../css/items.module.css';
-import AniLink from 'gatsby-plugin-transition-link/AniLink';
 import Place from '../Places/Place';
 
 const getFeaturedPlaces = graphql`
@@ -42,9 +41,9 @@ const FeaturedPlaces = () => {
                     ))
                 }
             </div>
-            <AniLink fade to='/places' className='btn-primary'>
+            <Link to='/places' className='btn-primary'>
                 all places
-            </AniLink>
+            </Link>
         </section>
     );
 }
