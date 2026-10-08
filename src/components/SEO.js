@@ -1,9 +1,8 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
 import { useStaticQuery, graphql } from 'gatsby';
 
 const getData = graphql`
-    query{
+    query {
         site {
             siteMetadata {
                 siteTitle: title
@@ -17,12 +16,17 @@ const getData = graphql`
     }
 `;
 
-
-const SEO = ({title, description}) => {
+/**
+ * Renders the site's SEO <head> tags using Gatsby's Head API.
+ * Use as: `export const Head = () => <Seo title="Home" />`
+ */
+const Seo = ({title, description}) => {
     const { site } = useStaticQuery(getData);
     const { siteTitle, siteDesc, siteUrl, image, twitterUsername } = site.siteMetadata;
     return (
-        <Helmet htmlAttributes={{lang: "en"}} title={`${title} | ${siteTitle}`}>
+        <>
+            <html lang="en" />
+            <title>{`${title} | ${siteTitle}`}</title>
             <meta name="description" content={description || siteDesc} />
             <meta name='image' content={image}/>
             {/* card for twitter */}
@@ -39,8 +43,8 @@ const SEO = ({title, description}) => {
             <meta property="og:image" content={`${siteUrl}${image}`}/>
             <meta property="og:image:width" content="400"/>
             <meta property="og:image:height" content="300"/>
-        </Helmet>
+        </>
     );
 }
 
-export default SEO;
+export default Seo;

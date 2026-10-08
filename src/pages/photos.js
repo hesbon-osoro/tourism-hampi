@@ -3,15 +3,13 @@ import Layout from '../components/Layout';
 import StyledHero from '../components/StyledHero';
 import { graphql } from 'gatsby';
 import PhotoList from '../components/Photos/PhotoList';
-import SEO from '../components/SEO'
+import Seo from '../components/SEO'
 
 export const query = graphql`
-    query{
+    query {
         blogBcg: file(relativePath: {eq: "hampiPhoto.jpg"}){
             childImageSharp{
-                fluid(quality: 90, maxWidth: 4160){
-                    ...GatsbyImageSharpFluid_withWebp
-                }
+                gatsbyImageData(quality: 90, layout: FULL_WIDTH, placeholder: BLURRED, formats: [AUTO, WEBP])
             }
         }
     }
@@ -20,9 +18,10 @@ export const query = graphql`
 export default function photos({data}){
     return(
         <Layout>
-            <SEO title="Photos" description="Royalty free image of Hampi, the city of ruins, is a UNESCO World Heritage Site."/>
-            <StyledHero img={data.blogBcg.childImageSharp.fluid} />
+            <StyledHero img={data.blogBcg.childImageSharp.gatsbyImageData} />
             <PhotoList />
         </Layout>
     )
 }
+
+export const Head = () => <Seo title="Photos" description="Royalty free image of Hampi, the city of ruins, is a UNESCO World Heritage Site." />

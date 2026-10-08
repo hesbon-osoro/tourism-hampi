@@ -1,6 +1,6 @@
 import React from 'react';
 import * as styles from '../../css/blog-card.module.css';
-import Image from 'gatsby-image';
+import { GatsbyImage } from 'gatsby-plugin-image';
 import { Link } from 'gatsby';
 
 const BlogCard = ({blog}) => {
@@ -8,7 +8,7 @@ const BlogCard = ({blog}) => {
     return (
         <article className={styles.blog}>
             <div className={styles.imgContainer}>
-                <Image fluid={image.fluid} className={styles.img} alt='single post' />
+                <GatsbyImage image={image.gatsbyImageData} className={styles.img} alt='single post' />
                 <Link className={styles.link} to={`/blog/${slug}`}>
                     read more
                 </Link>

@@ -6,15 +6,13 @@ import About from '../components/About/About';
 import Tips from '../components/Home/Tips';
 import { graphql, Link } from 'gatsby';
 import FeaturedPlaces from '../components/Home/FeaturedPlaces';
-import SEO from '../components/SEO';
+import Seo from '../components/SEO';
 
 export const query = graphql`
     query {
         defaultBcg: file(relativePath: {eq: "defaultBcg.jpeg"}){
             childImageSharp{
-                fluid(quality: 90, maxWidth: 4160){
-                    ...GatsbyImageSharpFluid_withWebp
-                }
+                gatsbyImageData(quality: 90, layout: FULL_WIDTH, placeholder: BLURRED, formats: [AUTO, WEBP])
             }
         }
     }
@@ -22,8 +20,7 @@ export const query = graphql`
 
 const home = ({data})=>(
     <Layout>
-        <SEO title='Home' />
-        <StyledHero home='true' img={data.defaultBcg.childImageSharp.fluid}>
+        <StyledHero home='true' img={data.defaultBcg.childImageSharp.gatsbyImageData}>
             <Banner title='Amazing Hampi' info='Come and Explore Hampi, the city of ruins, which is a UNESCO World Heritage Site.'>
                 <Link to='/places' className='btn-white'>explore places</Link>
             </Banner>
@@ -34,3 +31,5 @@ const home = ({data})=>(
     </Layout>
 )
 export default home;
+
+export const Head = () => <Seo title='Home' />

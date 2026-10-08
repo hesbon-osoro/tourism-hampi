@@ -2,19 +2,18 @@ import React from 'react';
 import { graphql, Link } from 'gatsby';
 import Layout from '../components/Layout';
 import * as styles from '../css/single-blog.module.css';
-import Img from 'gatsby-image';
-import SEO from '../components/SEO'
+import { GatsbyImage } from 'gatsby-plugin-image';
+import Seo from '../components/SEO'
 
 const Photos = ({data}) => {
     const { name, description, images } = data.photo;
-    let mainImage = images[1].fluid;
+    let mainImage = images[1].gatsbyImageData;
     return (
         <Layout>
-            <SEO title={name} description={`Royalty free images of ${name}`}/>
             <section className={styles.blog}>
                 <h1 className={styles.center}>{name}</h1>
                 <div className={styles.center}>
-                    <Img fluid={mainImage} alt='single image'/>
+                    <GatsbyImage image={mainImage} alt='single image'/>
                     <h4>{description}</h4>
                     <Link to='/photos' className='btn-primary'>
                         all photos
@@ -31,12 +30,12 @@ export const query = graphql`
             name
             description
             images{
-                fluid{
-                    ...GatsbyContentfulFluid
-                }
+                gatsbyImageData(layout: CONSTRAINED, placeholder: BLURRED)
             }
         }
         }
 `;
 
 export default Photos;
+
+export const Head = ({data}) => <Seo title={data.photo.name} description={`Royalty free images of ${data.photo.name}`} />

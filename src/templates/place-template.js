@@ -3,9 +3,9 @@ import { graphql, Link } from 'gatsby';
 import Layout from '../components/Layout';
 import StyledHero from '../components/StyledHero';
 import * as styles from '../css/template.module.css';
-import Img from 'gatsby-image';
+import { GatsbyImage } from 'gatsby-plugin-image';
 import {FaMoneyBillWave, FaClock, FaTypo3 } from 'react-icons/fa';
-import SEO from '../components/SEO'
+import Seo from '../components/SEO'
 
 const Template = ({ data }) => {
     const { name, timeRequired, timings, entryFees, description: { description }, images } = data.place;
@@ -14,14 +14,13 @@ const Template = ({ data }) => {
     
     return (
         <Layout>
-            <SEO title={name}/>
-            <StyledHero img={mainImage.fluid} />
+            <StyledHero img={mainImage.gatsbyImageData} />
             <section className={styles.template} >
                 <div className={styles.center} >
                     <div className={styles.images}>
                         {
                             placeImages && placeImages.map((item, index)=>(
-                                <Img key={index} fluid={item.fluid} alt='single' className={styles.image} />
+                                <GatsbyImage key={index} image={item.gatsbyImageData} alt='single' className={styles.image} />
                             ))
                         }
                     </div>
@@ -65,11 +64,11 @@ export const query = graphql`
                 description
             }
             images {
-                fluid {
-                    ...GatsbyContentfulFluid
-                }
+                gatsbyImageData(layout: CONSTRAINED, placeholder: BLURRED)
             }
         }
     }
 `
 export default Template;
+
+export const Head = ({data}) => <Seo title={data.place.name} />
