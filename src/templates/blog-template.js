@@ -1,8 +1,7 @@
 import React from 'react';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import Layout from '../components/Layout';
 import * as styles from '../css/single-blog.module.css';
-import AniLink from 'gatsby-plugin-transition-link/AniLink';
 import StyledHero from '../components/StyledHero'
 import SEO from '../components/SEO'
 
@@ -19,7 +18,7 @@ const  Blog = ({data}) => {
                     <h4>Published at: {published}</h4>
                     <h4>Author: {author}</h4>
                     <div dangerouslySetInnerHTML={{__html:childMarkdownRemark.html}}/>
-                    <AniLink fade to='/blog' className='btn-primary'>all blogs</AniLink>
+                    <Link to='/blog' className='btn-primary'>all blogs</Link>
                 </div>
             </section>
         </Layout>

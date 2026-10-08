@@ -1,8 +1,7 @@
 import React from 'react';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import Layout from '../components/Layout';
 import * as styles from '../css/single-blog.module.css';
-import AniLink from 'gatsby-plugin-transition-link/AniLink';
 import Img from 'gatsby-image';
 import SEO from '../components/SEO'
 
@@ -17,9 +16,9 @@ const Photos = ({data}) => {
                 <div className={styles.center}>
                     <Img fluid={mainImage} alt='single image'/>
                     <h4>{description}</h4>
-                    <AniLink fade to='/photos' className='btn-primary'>
+                    <Link to='/photos' className='btn-primary'>
                         all photos
-                    </AniLink>
+                    </Link>
                 </div>
             </section>
         </Layout>

@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'gatsby-image';
 import * as styles from '../../css/place.module.css';
-import AniLink from 'gatsby-plugin-transition-link/AniLink';
+import { Link } from 'gatsby';
 
 const PhotoCard = ({photo}) => {
     const { name, slug, images } = photo;
@@ -10,7 +10,7 @@ const PhotoCard = ({photo}) => {
         <article className={styles.place}>
             <div className={styles.imgContainer}>
                 <Image fluid={mainImage} className={styles.img} alt='single photo' />
-                <AniLink fade className={styles.link} to={`/photos/${slug}`}>open</AniLink>
+                <Link className={styles.link} to={`/photos/${slug}`}>open</Link>
             </div>
             <div className={styles.footer}>
                 <h3>{name}</h3>

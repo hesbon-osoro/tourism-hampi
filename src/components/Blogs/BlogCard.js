@@ -1,7 +1,7 @@
 import React from 'react';
 import * as styles from '../../css/blog-card.module.css';
 import Image from 'gatsby-image';
-import AniLink from 'gatsby-plugin-transition-link/AniLink';
+import { Link } from 'gatsby';
 
 const BlogCard = ({blog}) => {
     const { slug, title, image, published } = blog;
@@ -9,9 +9,9 @@ const BlogCard = ({blog}) => {
         <article className={styles.blog}>
             <div className={styles.imgContainer}>
                 <Image fluid={image.fluid} className={styles.img} alt='single post' />
-                <AniLink fade className={styles.link} to={`/blog/${slug}`}>
+                <Link className={styles.link} to={`/blog/${slug}`}>
                     read more
-                </AniLink>
+                </Link>
                 <h6 className={styles.date}>{published}</h6>
             </div>
             <div className={styles.footer}>

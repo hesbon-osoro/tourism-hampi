@@ -1,11 +1,10 @@
 import React from 'react';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import Layout from '../components/Layout';
 import StyledHero from '../components/StyledHero';
 import * as styles from '../css/template.module.css';
 import Img from 'gatsby-image';
 import {FaMoneyBillWave, FaClock, FaTypo3 } from 'react-icons/fa';
-import AniLink from 'gatsby-plugin-transition-link/AniLink'
 import SEO from '../components/SEO'
 
 const Template = ({ data }) => {
@@ -45,9 +44,9 @@ const Template = ({ data }) => {
                         }
                     </div>
                     <p className={styles.desc}>{description}</p>
-                    <AniLink fade to='/places' className='btn-primary' >
+                    <Link to='/places' className='btn-primary' >
                         back to places
-                    </AniLink>
+                    </Link>
                 </div>
             </section>
         </Layout>
