@@ -14,9 +14,7 @@ const getPhotos = graphql`
                     slug
                     description
                     images{
-                        fluid{
-                            ...GatsbyContentfulFluid
-                        }
+                        gatsbyImageData(layout: CONSTRAINED, placeholder: BLURRED)
                     }
                 }
             }

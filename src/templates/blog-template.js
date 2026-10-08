@@ -3,15 +3,14 @@ import { graphql, Link } from 'gatsby';
 import Layout from '../components/Layout';
 import * as styles from '../css/single-blog.module.css';
 import StyledHero from '../components/StyledHero'
-import SEO from '../components/SEO'
+import Seo from '../components/SEO'
 
 const  Blog = ({data}) => {
     const { title, published, author, description: {childMarkdownRemark}, image} = data.post;
     return (
         <Layout>
-            <SEO title={title}/>
             <h1 className={styles.center}>{title}</h1>
-            <StyledHero img={image.fluid}/>
+            <StyledHero img={image.gatsbyImageData}/>
             <section className={styles.blog}>
                 <div className={styles.center}>
                     <h1>{title}</h1>
@@ -37,12 +36,12 @@ export const query = graphql`
                 }
             }
             image{
-                fluid{
-                    ...GatsbyContentfulFluid
-                }
+                gatsbyImageData(layout: CONSTRAINED, placeholder: BLURRED)
             }
         }
     }
 `;
 
 export default Blog;
+
+export const Head = ({data}) => <Seo title={data.post.title} />

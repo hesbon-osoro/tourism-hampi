@@ -17,10 +17,8 @@ const getFeaturedPlaces = graphql`
                     entryFees
                     featured
                     images{
-                    fluid{
-                        ...GatsbyContentfulFluid
+                        gatsbyImageData(layout: CONSTRAINED, placeholder: BLURRED)
                     }
-                }
             }
         }
     }

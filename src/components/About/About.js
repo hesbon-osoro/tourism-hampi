@@ -3,15 +3,13 @@ import Title from '../Title';
 import * as styles from '../../css/about.module.css';
 // import img from '../../images/defaultBcg.jpeg';
 import { useStaticQuery, graphql  } from 'gatsby';
-import Img from 'gatsby-image';
+import { GatsbyImage } from 'gatsby-plugin-image';
 
 const getAbout = graphql`
     query aboutImage{
         aboutImage: file(relativePath: {eq: "defaultBcg.jpeg"}){
             childImageSharp{
-                fluid(maxWidth: 600){
-                    ...GatsbyImageSharpFluid_tracedSVG
-                }
+                gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG)
             }
         }
     }
@@ -26,7 +24,7 @@ const About = () => {
                 <article className={styles.aboutImg}>
                     <div className={styles.imgContainer}>
                         {/* <img src={img} alt="about company" /> */}
-                        <Img fluid={aboutImage.childImageSharp.fluid} alt='landscape' />
+                        <GatsbyImage image={aboutImage.childImageSharp.gatsbyImageData} alt='landscape' />
                     </div>
                 </article>
                 <article className={styles.aboutInfo}>

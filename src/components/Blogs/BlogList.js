@@ -15,9 +15,7 @@ const getPosts = graphql`
                 author
                 id: contentful_id
                 image {
-                    fluid {
-                        ...GatsbyContentfulFluid
-                    }
+                    gatsbyImageData(layout: CONSTRAINED, placeholder: BLURRED)
                 }
             }
         }
