@@ -5,6 +5,9 @@
   "version": "0.1.0",
   "author": "Wazimu <hesbonosoro1@gmail.com>",
   "packageManager": "yarn@1.22.19",
+  "engines": {
+    "node": ">=20.9.0"
+  },
   "dependencies": {
     "@formspree/react": "^3.0.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
