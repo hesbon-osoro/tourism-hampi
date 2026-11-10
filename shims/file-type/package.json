@@ -1,0 +1,11 @@
+{
+  "name": "file-type",
+  "version": "16.5.4-shim",
+  "private": true,
+  "description": "file-type 16's API (fromFile, fromBuffer, fromStream) on top of patched file-type 21. Gatsby 5 still calls the old API.",
+  "main": "index.js",
+  "license": "0BSD",
+  "dependencies": {
+    "file-type-esm": "npm:file-type@^21.3.1"
+  }
+}
